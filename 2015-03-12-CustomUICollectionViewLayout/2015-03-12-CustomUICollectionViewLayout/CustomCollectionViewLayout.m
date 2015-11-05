@@ -30,7 +30,7 @@
     // 初始化参数
     _cellCount = [self.collectionView numberOfItemsInSection:0]; // cell个数，直接从collectionView中获得
     _insert = 10; // 设置间距
-    _itemWidth = SCREEN_WIDTH / 2 - 3 * _insert; // cell宽度
+    _itemWidth = (SCREEN_WIDTH - 3 * _insert) / 2; // cell宽度
 }
 
 /**
